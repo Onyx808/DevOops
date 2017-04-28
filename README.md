@@ -3,7 +3,7 @@
 DevOops will monitor Linux services for you and dispatch an SMS if they stop (and optionally attempt a restart). You'll need a ZenSend API key to use the SMS feature.
 
 ### Config File
-Put your ZenSend SMS API key in here, and any phone numbers you want SMSs to be sent to. The Originator parameter will be the SMS sender name. Phone numbers need a country code, and multiple ones can be used with comma separation, eg:
+Put your ZenSend https://www.zensend.io SMS API key in here, and any phone numbers you want SMSs to be sent to. The Originator parameter will be the SMS sender name. Phone numbers need a country code, and multiple ones can be used with comma separation, eg:
 ```
 [Numbers]
 smsMe: 4455551111,445555222
